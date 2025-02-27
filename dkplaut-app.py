@@ -119,7 +119,7 @@ if template_file:
                                 row[8].value = X13.iloc[1, 1] + X13.iloc[1, 2] # Update Obat - Desinfektan
                                 row[9].value = X13.iloc[2, 1] + X13.iloc[2, 2] # Update Obat - Obat
                                 row[10].value = X13.iloc[3, 1] + X13.iloc[3, 2] # Update Obat - Hormon
-                                row[11].value = X13.iloc[5, 1] + X13.iloc[5, 2] # Update Obat - Listrik(KVA) >>> KEKNYA INI PENYEBAB ERROR
+                                row[11].value = X13.iloc[5, 1] + X13.iloc[5, 2] # Update Obat - Listrik(KVA)
                                 row[12].value = X13.iloc[6, 1] + X13.iloc[6, 2] # Update Obat - BBM
                                 break
 
