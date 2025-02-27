@@ -125,40 +125,40 @@ if template_file:
 
                         for row in C.iter_rows(min_row=2, max_row=C.max_row):
                             if row[0].value and str(row[0].value).strip().lower() == str(Y).strip().lower():
-                                row[1].value = X4.iloc[0, 1]  # Update Produksi - Bandeng
-                                row[2].value = X4.iloc[1, 1]  # Update Produksi - Belanak
-                                row[3].value = X4.iloc[2, 1]  # Update Produksi - Kerapu (Tikus)
-                                row[4].value = X4.iloc[3, 1]  # Update Produksi - Kakap
-                                row[5].value = X4.iloc[4, 1]  # Update Produksi - Baronang
-                                row[6].value = X4.iloc[5, 1] + X4.iloc[9, 1] # Update Produksi - Ikan Lainnya + Bawal Bintang
-                                row[7].value = X4.iloc[6, 1]  # Update Produksi - Udang Barong
-                                row[8].value = X4.iloc[7, 1]  # Update Produksi - Udang Lainya
-                                row[9].value = X4.iloc[8, 1]  # Update Produksi - Rajungan
-                                row[10].value = 0  # Update Produksi - Kerang Darah (gaada di list produksi?)
-                                row[11].value = X4.iloc[14, 1]  # Update Produksi - Kerang Hijau
-                                row[12].value = 0  # Update Produksi - Remis (gaada di list produksi?)
-                                row[13].value = 0  # Update Produksi - Mutiara (gaada di list produksi?)
-                                row[14].value = X4.iloc[11, 1]  # Update Produksi - Lainnya (Kepiting)
-                                row[15].value = X4.iloc[10, 1] + X4.iloc[12, 1] + X4.iloc[13, 1] # Update Produksi - Rumput Laut
+                                row[2].value = X4.iloc[0, 1]  # Update Produksi - Bandeng
+                                row[3].value = X4.iloc[1, 1]  # Update Produksi - Belanak
+                                row[4].value = X4.iloc[2, 1]  # Update Produksi - Kerapu (Tikus)
+                                row[5].value = X4.iloc[3, 1]  # Update Produksi - Kakap
+                                row[6].value = X4.iloc[4, 1]  # Update Produksi - Baronang
+                                row[7].value = X4.iloc[5, 1] + X4.iloc[9, 1] # Update Produksi - Ikan Lainnya + Bawal Bintang
+                                row[8].value = X4.iloc[6, 1]  # Update Produksi - Udang Barong
+                                row[9].value = X4.iloc[7, 1]  # Update Produksi - Udang Lainnya
+                                row[10].value = X4.iloc[8, 1]  # Update Produksi - Rajungan
+                                row[11].value = 0  # Update Produksi - Kerang Darah (gaada di list produksi?)
+                                row[12].value = X4.iloc[14, 1]  # Update Produksi - Kerang Hijau
+                                row[13].value = 0  # Update Produksi - Remis (gaada di list produksi?)
+                                row[14].value = 0  # Update Produksi - Mutiara (gaada di list produksi?)
+                                row[15].value = X4.iloc[11, 1]  # Update Produksi - Lainnya (Kepiting)
+                                row[16].value = X4.iloc[10, 1] + X4.iloc[12, 1] + X4.iloc[13, 1] # Update Produksi - Rumput Laut
                                 break
 
                         for row in D.iter_rows(min_row=2, max_row=D.max_row):
                             if row[0].value and str(row[0].value).strip().lower() == str(Y).strip().lower():
-                                row[1].value = X4.iloc[0, 2]  # Update Nilai Produksi - Bandeng
-                                row[2].value = X4.iloc[1, 2]  # Update Nilai Produksi - Belanak
-                                row[3].value = X4.iloc[2, 2]  # Update Nilai Produksi - Kerapu
-                                row[4].value = X4.iloc[3, 2]  # Update Nilai Produksi - Kakap
-                                row[5].value = X4.iloc[4, 2]  # Update Nilai Produksi - Baronang
-                                row[6].value = X4.iloc[5, 2] + X4.iloc[9, 2] # Update Nilai Produksi - Ikan Lainnya + Bawal Bintang
-                                row[7].value = X4.iloc[6, 2]  # Update Nilai Produksi - Udang Barong
-                                row[8].value = X4.iloc[7, 2]  # Update Nilai Produksi - Udang Lainya
-                                row[9].value = X4.iloc[8, 2]  # Update Nilai Produksi - Rajungan
-                                row[10].value = 0  # Update Nilai Produksi - Kerang Darah (gaada di list produksi?)
-                                row[11].value = X4.iloc[14, 2]  # Update Nilai Produksi - Kerang Hijau
-                                row[12].value = 0  # Update Nilai Produksi - Remis (gaada di list produksi?)
-                                row[13].value = 0  # Update Nilai Produksi - Mutiara (gaada di list produksi?)
-                                row[14].value = X4.iloc[11, 2]  # Update Nilai Produksi - Lainnya (Kepiting)
-                                row[15].value = X4.iloc[10, 2] + X4.iloc[12, 2] + X4.iloc[13, 2] # Update Nilai Produksi - Rumput Laut
+                                row[2].value = X4.iloc[0, 2]  # Update Nilai Produksi - Bandeng
+                                row[3].value = X4.iloc[1, 2]  # Update Nilai Produksi - Belanak
+                                row[4].value = X4.iloc[2, 2]  # Update Nilai Produksi - Kerapu
+                                row[5].value = X4.iloc[3, 2]  # Update Nilai Produksi - Kakap
+                                row[6].value = X4.iloc[4, 2]  # Update Nilai Produksi - Baronang
+                                row[7].value = X4.iloc[5, 2] + X4.iloc[9, 2] # Update Nilai Produksi - Ikan Lainnya + Bawal Bintang
+                                row[8].value = X4.iloc[6, 2]  # Update Nilai Produksi - Udang Barong
+                                row[9].value = X4.iloc[7, 2]  # Update Nilai Produksi - Udang Lainya
+                                row[10].value = X4.iloc[8, 2]  # Update Nilai Produksi - Rajungan
+                                row[11].value = 0  # Update Nilai Produksi - Kerang Darah (gaada di list produksi?)
+                                row[12].value = X4.iloc[14, 2]  # Update Nilai Produksi - Kerang Hijau
+                                row[13].value = 0  # Update Nilai Produksi - Remis (gaada di list produksi?)
+                                row[14].value = 0  # Update Nilai Produksi - Mutiara (gaada di list produksi?)
+                                row[15].value = X4.iloc[11, 2]  # Update Nilai Produksi - Lainnya (Kepiting)
+                                row[16].value = X4.iloc[10, 2] + X4.iloc[12, 2] + X4.iloc[13, 2] # Update Nilai Produksi - Rumput Laut
                                 break
 
         # Simpan hasil
